@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>variables</title>
+    <script>
+        function hello()
+        {
+            alert("1")
+            var x=document.getElementById('demo');
+            if (x.CheckValidity())
+              { 
+                document.getElementById('demo1').innerHTML="validate";
+              }
+            else
+              {
+                document.getElementById('demo1').innerHTML= x.validationmessage;
+              }
+        }
+    </script>
+</head>
+<body>
+    <p Id="d1"></p>     
+    <script>
+         var x=5;
+         var y=4;
+         var z=x+y;
+         document.getElementById('d1').innerHTML="Addition is"+z; 
+         document.write="Hello";
+    </script>
+    <input type="number" id="demo" min="100" max="200" >
+    <input type="button" value="click" onclick="hello()">
+    <p Id="demo1"></p>
+
+    
+</body>
+</html>
